@@ -14,7 +14,7 @@ import plotly.express as px
 # In[2]:
 
 
-df = pd.read_csv('../global-data-on-sustainable-energy (1).csv')
+df = pd.read_csv(r'C:\Users\USER\Desktop\DATA PROJECT\global-data-on-sustainable-energy (1).csv')
 df
 
 
@@ -191,7 +191,7 @@ def wrangle(filename):
 # In[23]:
 
 
-df = wrangle('../global-data-on-sustainable-energy (1).csv')
+df = wrangle(r'C:\Users\USER\Desktop\DATA PROJECT\global-data-on-sustainable-energy (1).csv')
 df.info()
 
 
