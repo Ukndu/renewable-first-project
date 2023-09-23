@@ -400,24 +400,3 @@ country_picker("Nigeria")
 #running the app
 if __name__ == "__main__":
     app.run_server(debug=False)
-
-
-# In[37]:
-
-
-get_ipython().system('jupyterlab nbconvert --to script config_template.ipynb')
-
-
-# In[38]:
-
-
-get_ipython().run_line_magic('pip', 'install nbconvert')
-
-
-# In[40]:
-
-
-get_ipython().system('jupyter nbconvert --to script "First project".ipynb')
-
-
-# In[ ]:
