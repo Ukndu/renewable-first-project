@@ -229,7 +229,7 @@ server = app.server
 
 
 def country_picker(country):
-    df = wrangle'../global-data-on-sustainable-energy (1).csv')
+    df = wrangle('../global-data-on-sustainable-energy (1).csv')
     mask = df['Entity'] == country
     df = df[mask]
     return df
